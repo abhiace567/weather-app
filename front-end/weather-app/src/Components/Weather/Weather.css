@@ -1,0 +1,82 @@
+.displayweather {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  
+  .displayweather .maincard {
+    width: 32rem;
+    margin-top: 20px;
+    align-self: center;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: rgba(214, 214, 214, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 12px rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    justify-content: space-between;
+  }
+  
+  .displayweather .maincard .cardtitle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .displayweather .maincard .cardsubtitle {
+    position: absolute;
+    left: 10px;
+  
+    color: grey;
+    margin-top: -8px;
+  }
+
+  .displayweather h1 {
+    font-size: 4rem;
+    margin: .8rem;
+    margin-top: -5px;
+  }
+
+  .displayweather h2 {
+    margin: .8rem;
+    margin-top: -25px;
+  }
+  
+  .displayweather .weather-description {
+    font-size: 1.4rem;
+    text-align: right;
+    font-family: cursive;
+    margin-top: -25px;
+  }
+  .displayweather .weatherdetails {
+    margin-left: 30px;
+    margin-right: 30px;
+  
+    display: flex;
+    flex-direction: row;
+    column-count: 2;
+    justify-content: space-between;
+    color: white;
+  }
+  .displayweather .weatherdetails .section1 {
+    justify-self: right;
+    width: 300px;
+  }
+  
+  h4 {
+    text-align: left;
+    margin-right: 30px;
+    font-size: 1.2rem;
+  }
+  
+  td {
+    border-bottom: 2px dashed grey;
+  }
+  .displayweather .weatherdetails span {
+    font-size: 1.2rem;
+  }
+  

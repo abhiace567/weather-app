@@ -1,0 +1,23 @@
+#city-form {
+  width: 40rem;
+  max-width: 90%;
+  margin: auto;
+  padding: 2rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+}
+
+.sub-hedding {
+  color: rgb(211, 0, 140);
+  font-size: 36px;
+  margin-top: 0.5rem;
+}
+
+body {
+  background-image: url("/public/Pictures/thunderstorm-3625405__480.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
